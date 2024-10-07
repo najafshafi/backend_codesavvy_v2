@@ -7,7 +7,7 @@ const User = require('../models/User'); // Adjust the path as necessary
 
 const router = express.Router();
 
-// Register Route
+// Register Routes
 router.post(
     '/signup',
     [
