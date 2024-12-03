@@ -123,6 +123,7 @@ router.get('/verifyToken', async (req, res) => {
         res.json({ user });
     } catch (err) {
         res.status(401).json({ msg: 'Token is not valid' });
+        console.log("Token is invalid.")
     }
 });
 
